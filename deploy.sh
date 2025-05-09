@@ -1,9 +1,9 @@
 #!/bin/bash
 
 REPO_URL="https://github.com/Mahi130594/HTML-Project.git"
-TMP_DIR="/tmp/html-project"
+TMP_DIR="/tmp/HTML-Project"
 DEPLOY_DIR="/var/www/html"
-LOG_FILE="/home/ubuntu/deploy.log"
+LOG_FILE="/home/ubuntu/HTML-Project/deploy.log"
 
 echo "------ Deployment Started: $(date) ------" >> $LOG_FILE
 

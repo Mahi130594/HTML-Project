@@ -6,8 +6,8 @@ import os
 REPO = "Mahi130594/HTML-Project"
 BRANCH = "master"
 TOKEN = "ghp_your_github_token_here"  # Replace with your actual GitHub personal access token
-LAST_COMMIT_FILE = "/home/ubuntu/last_commit.txt"
-DEPLOY_SCRIPT = "/home/ubuntu/deploy.sh"
+LAST_COMMIT_FILE = "/home/ubuntu/HTML-Project/last_commit.txt"
+DEPLOY_SCRIPT = "/home/ubuntu/HTML-Project/deploy.sh"
 
 headers = {"Authorization": f"token {TOKEN}"}
 url = f"https://api.github.com/repos/{REPO}/commits/{BRANCH}"
